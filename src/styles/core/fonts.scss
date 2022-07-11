@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy/Medium/Gilroy-Medium.eot');
+  src: url('./assets/fonts/Gilroy/Medium/Gilroy-Medium.woff') format('woff'),
+       url('./assets/fonts/Gilroy/Medium/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy/Bold/Gilroy-Bold.eot');
+  src: url('./assets/fonts/Gilroy/Bold/Gilroy-Bold.woff') format('woff'),
+       url('./assets/fonts/Gilroy/Bold/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy/ExtraBold/Gilroy-ExtraBold.eot');
+  src: url('./assets/fonts/Gilroy/ExtraBold/Gilroy-ExtraBold.woff') format('woff'),
+       url('./assets/fonts/Gilroy/ExtraBold/Gilroy-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url('./assets/fonts/Chronicle-Display/SemiBold/Chronicle-Display-Semibold.eot');
+  src: url('./assets/fonts/Chronicle-Display/SemiBold/Chronicle-Display-Semibold.woff') format('woff'),
+       url('./assets/fonts/Chronicle-Display/SemiBold/Chronicle-Display-Semibold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}

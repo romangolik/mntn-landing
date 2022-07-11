@@ -1,0 +1,68 @@
+*:not(h1, h2, h3, h4, h5, h6) {
+  font-family: 'Gilroy', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Chronicle Display', sans-serif;
+}
+
+h1 {
+  font-size: 88px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.14;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+a, p {
+  font-size: 18px;
+  line-height: 1.2;
+  font-style: normal;
+}
+
+.larger-line-height {
+  line-height: 32px;
+}
+
+@media screen and (max-width: 1441px) {
+  h1 {
+    font-size: 75px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  a, p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  h1 {
+    font-size: 58px;
+  }
+
+  h2 {
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .larger-line-height {
+    line-height: 28px;
+  }
+}

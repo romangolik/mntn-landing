@@ -1,0 +1,35 @@
+@import "../abstract/mixins/alignment.mixins";
+
+.tagline {
+  @include flexAlignment(center);
+
+  &__line {
+    height: 2px;
+    width: 72px;
+    margin-right: 24px;
+
+    background-color: var(--accent);
+  }
+
+  &__text {
+    font-weight: 800;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    color: var(--accent);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .tagline {
+    &__line {
+      width: 40px;
+      margin-right: 16px;
+    }
+
+    &__text {
+      font-size: 12px;
+      letter-spacing: 4px;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+
+  font-weight: 700;
+
+  color: var(--white);
+
+  transition: 0.2s ease;
+
+  &:hover {
+    color: var(--accent);
+  }
+
+  &__icon {
+    display: block;
+    height: 24px;
+    width: 24px;
+
+    color: inherit;
+
+    &:first-child {
+      margin-right: 8px;
+    }
+
+    &:last-child {
+      margin-left: 8px;
+    }
+
+    &:first-child:last-child {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &__text {
+    font: inherit;
+    color: inherit;
+  }
+
+  &_hover-transform_up:hover {
+    transform: translateY(-3px);
+  }
+
+  &_hover-transform_down:hover {
+    transform: translateY(3px);
+  }
+
+  &_hover-transform_right:hover {
+    transform: translateX(3px);
+  }
+
+  &_hover-transform_left:hover {
+    transform: translateX(-3px);
+  }
+
+  &_primary {
+    color: var(--accent);
+  }
+}

@@ -1,0 +1,34 @@
+@import "../abstract/mixins/alignment.mixins";
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  z-index: 100;
+
+  @include flexAlignment(center, space-between);
+  width: 100%;
+  padding: 0 80px;
+
+  box-sizing: border-box;
+
+  &__navigation-item {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0 32px;
+
+    &__navigation {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .header {
+    padding: 0 24px;
+  }
+}
